@@ -79,6 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+React is a javascript framework developed by facebook that solves problems related to state and components
+
 1. Describe component state.
+
+Component state refers to the stateful data that is used in making a component.
+
 1. Describe props.
+
+props(properties) are a way of passing down stateful data into other component folders, from the parent folder, so you can use the same data for multiple instances
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+side effects are what happens with the useEffect hook, and you can sync side effects to changes of state by putting that state in the dependency array that determines when the side effect gets triggered
