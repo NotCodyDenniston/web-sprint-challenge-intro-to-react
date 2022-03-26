@@ -12,9 +12,9 @@ const App = () => {
   // side effect in a component, you want to think about which state and/or props it should
   // sync up with, if any.
   useEffect(() => {
-    axios.get(`https://swapi.dev/api/people`)
+    axios.get(`https://swapi.dev/api/people/`)
       .then(res => {
-        setJedi(res.data.results)
+        setJedi(res.data)
       })
       .catch(err => {
         console.error(err)
